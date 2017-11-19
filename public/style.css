@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+
+th {
+	border-right: 1px solid #fff;
+}
+
+th,
+td {
+	padding: 5px 5px;
+  vertical-align: middle;
+}
+
+thead {
+	background: #395870;
+	color: #fff;
+	font-size: 14px;
+}
+
+tr {
+	height: 30px;
+}
+
+.id{
+  width: 6%
+}
+.symbol{
+  width: 9%
+}
+
+.name{
+  width: 33%
+}
+
+.sector{
+  width: 11%
+}
+
+.industry{
+  width: 35%
+}
+
+.ipo{
+  width: 6%
+}

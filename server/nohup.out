@@ -1,0 +1,100 @@
+server listening on port 3000
+qO5X ——> GET / 
+qO5X <—— 200 OK 483 B text/html; charset=UTF-8 (<—> 24.2 ms)
+bpvF ——> GET /bootstrap/dist/css/bootstrap.css 
+bpvF <—— 304 Not Modified (<—> 2.4 ms)
+mX1y ——> GET /style.css 
+mX1y <—— 304 Not Modified (<—> 0.6 ms)
+YGo7 ——> GET /bootstrap-flatly.css 
+YGo7 <—— 304 Not Modified (<—> 0.4 ms)
+zo02 ——> GET /font-awesome/css/font-awesome.css 
+zo02 <—— 304 Not Modified (<—> 0.3 ms)
+nigD ——> GET /bootstrap-social/bootstrap-social.css 
+nigD <—— 304 Not Modified (<—> 0.3 ms)
+pvMJ ——> GET /bundle.js 
+pvMJ <—— 304 Not Modified (<—> 0.5 ms)
+l07o ——> GET /bootstrap/dist/css/bootstrap.css.map 
+l07o <—— 304 Not Modified (<—> 0.5 ms)
+FuZm ——> GET /bundle.js.map 
+FuZm —X— connection closed before res end/flush
+0H2w ——> GET /api/stocks/nasdaq 
+0H2w <—— 304 Not Modified (<—> 7.9 ms)
+1MhJ ——> GET /bundle.js.map 
+WKdd ——> GET /fonts/glyphicons-halflings-regular.woff2 
+WKdd <—— 404 Not Found (<—> 0.6 ms)
+u6TR ——> GET /fonts/glyphicons-halflings-regular.woff2 
+u6TR <—— 404 Not Found (<—> 0.4 ms)
+gFIM ——> GET /fonts/glyphicons-halflings-regular.woff 
+gFIM <—— 404 Not Found (<—> 0.5 ms)
+u9du ——> GET /fonts/glyphicons-halflings-regular.woff 
+u9du <—— 404 Not Found (<—> 0.6 ms)
+1MhJ <—— 200 OK 1.25 MB application/json (<—> 181.5 ms)
+ANYt ——> GET /fonts/glyphicons-halflings-regular.ttf 
+ANYt <—— 404 Not Found (<—> 0.8 ms)
+oBPq ——> GET /fonts/glyphicons-halflings-regular.ttf 
+oBPq <—— 404 Not Found (<—> 0.4 ms)
+t4h8 ——> GET /fonts/glyphicons-halflings-regular.woff 
+t4h8 <—— 404 Not Found (<—> 0.9 ms)
+Cu7c ——> GET /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 
+Cu7c <—— 200 OK 17.61 KB application/font-woff2 (<—> 1.2 ms)
+WjlS ——> GET /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 
+WjlS <—— 304 Not Modified (<—> 0.6 ms)
+d1zg ——> GET / 
+d1zg <—— 304 Not Modified (<—> 5.0 ms)
+Client has disconnected
+jbzg ——> GET /bootstrap-flatly.css 
+jbzg <—— 304 Not Modified (<—> 2.3 ms)
+ZhwF ——> GET /font-awesome/css/font-awesome.css 
+ZhwF <—— 304 Not Modified (<—> 1.4 ms)
+kA04 ——> GET /bootstrap/dist/css/bootstrap.css 
+kA04 <—— 304 Not Modified (<—> 1.1 ms)
+Zpai ——> GET /bootstrap-social/bootstrap-social.css 
+Zpai <—— 304 Not Modified (<—> 3.1 ms)
+ECvt ——> GET /style.css 
+ECvt <—— 304 Not Modified (<—> 1.1 ms)
+cZTd ——> GET /bundle.js 
+cZTd <—— 304 Not Modified (<—> 0.6 ms)
+QH2x ——> GET /bootstrap/dist/css/bootstrap.css.map 
+QH2x <—— 304 Not Modified (<—> 0.4 ms)
+cDaS ——> GET /bundle.js.map 
+cDaS <—— 304 Not Modified (<—> 1.7 ms)
+jgnD ——> GET /api/stocks/nasdaq 
+jgnD <—— 304 Not Modified (<—> 8.8 ms)
+XEIJ ——> GET /fonts/glyphicons-halflings-regular.woff2 
+XEIJ <—— 404 Not Found (<—> 2.6 ms)
+t4ZH ——> GET /fonts/glyphicons-halflings-regular.woff 
+t4ZH <—— 404 Not Found (<—> 0.6 ms)
+OWM1 ——> GET /fonts/glyphicons-halflings-regular.ttf 
+OWM1 <—— 404 Not Found (<—> 0.5 ms)
+Jtd2 ——> GET /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 
+Jtd2 <—— 304 Not Modified (<—> 0.4 ms)
+kN42 ——> GET / 
+kN42 <—— 304 Not Modified (<—> 0.7 ms)
+Client has disconnected
+fSq6 ——> GET /bootstrap/dist/css/bootstrap.css 
+fSq6 <—— 304 Not Modified (<—> 0.5 ms)
+rU5R ——> GET /font-awesome/css/font-awesome.css 
+rU5R <—— 304 Not Modified (<—> 1.0 ms)
+uLFD ——> GET /bootstrap-flatly.css 
+M7cv ——> GET /bootstrap-social/bootstrap-social.css 
+hDHd ——> GET /style.css 
+uLFD <—— 304 Not Modified (<—> 0.8 ms)
+M7cv <—— 304 Not Modified (<—> 1.3 ms)
+hDHd <—— 304 Not Modified (<—> 1.4 ms)
+bCqv ——> GET /bundle.js 
+bCqv <—— 304 Not Modified (<—> 0.5 ms)
+gE0y ——> GET /bootstrap/dist/css/bootstrap.css.map 
+gE0y <—— 304 Not Modified (<—> 0.5 ms)
+kpRE ——> GET /bundle.js.map 
+kpRE <—— 304 Not Modified (<—> 0.6 ms)
+YYpG ——> GET /api/stocks/nasdaq 
+YYpG <—— 304 Not Modified (<—> 8.3 ms)
+scTv ——> GET /fonts/glyphicons-halflings-regular.woff2 
+scTv <—— 404 Not Found (<—> 3.6 ms)
+RuvQ ——> GET /fonts/glyphicons-halflings-regular.woff 
+RuvQ <—— 404 Not Found (<—> 1.4 ms)
+bJpI ——> GET /fonts/glyphicons-halflings-regular.ttf 
+bJpI <—— 404 Not Found (<—> 0.4 ms)
+Hj0m ——> GET /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 
+Hj0m <—— 304 Not Modified (<—> 0.7 ms)
+Client has disconnected
