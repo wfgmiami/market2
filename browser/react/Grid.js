@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDataGrid from 'react-data-grid';
-// import { Toolbar, ToolsPanel, Data, Draggable } from 'react-data-grid-addons';
-
+import "babel-polyfill";
+import { Toolbar, Data, Draggable } from 'react-data-grid-addons';
+import { ToolsPanel } from 'react-data-grid-addons';
 
 import PropTypes from 'prop-types';
-
+const { GroupedColumnsPanel } = ToolsPanel;
 const {
-  ToolsPanel: { AdvancedToolbar: Toolbar, GroupedColumnsPanel },
+//  ToolsPanel: { AdvancedToolbar: Toolbar, GroupedColumnsPanel },
   Data: { Selectors },
   Draggable: { Container: DraggableContainer },
   Formatters: { ImageFormatter }
@@ -17,16 +18,17 @@ const {
 class CustomToolbar extends React.Component{
 	static propTypes = {
 		groupBy: PropTypes.array.isRequired,
-		onColumnGroupAdded: PropTypes.func.isRequire,
-		onColumnGroupDeleted: PropTypes.func.isRequired,
+		onColumnGroupAdded: PropTypes.func.isRequired,
+		onColumnGroupDeleted: PropTypes.func.isRequired
 	}
 
 	render(){
+	
 		return (
-
-		<Toolbar enableFilter={this.props.filterFlag}>
+			
+				
 			<GroupedColumnsPanel groupBy = {this.props.groupBy} onColumnGroupAdded={this.props.onColumnGroupAdded} onColumnGroupDeleted={this.props.onColumnGroupDeleted} />
-		</Toolbar>
+			
 		)
 	}
 }
@@ -44,8 +46,8 @@ export default class Grid extends React.Component{
 			sortColumn: null,
 			sortDirection: null,
 			groupBy:[],
-			filterFlag: true,
-			expandedRows: {}
+			expandedRows: {},
+		
 		};
 		this.createRows = this.createRows.bind(this);
 		this.handleGridSort = this.handleGridSort.bind(this);
@@ -53,7 +55,7 @@ export default class Grid extends React.Component{
 		this.getSize = this.getSize.bind(this);
 		this.handleFilterChange = this.handleFilterChange.bind(this);
 		this.onColumnGroupAdded = this.onColumnGroupAdded.bind(this);
-		this.onColumnGroupDeleted = this.onColumnGroupDeleted.bind(this);
+//		this.onColumnGroupDeleted = this.onColumnGroupDeleted.bind(this);
 		this.onRowExpandToggle = this.onRowExpandToggle.bind(this);
 	}
 
@@ -117,22 +119,37 @@ export default class Grid extends React.Component{
 	}
 
   onColumnGroupAdded(colName) {
+	console.log('.....added colName', colName);
     let columnGroups = this.state.groupBy.slice(0);
     let activeColumn = this.columns.find((c) => c.key === colName)
     let isNotInGroups = columnGroups.find((c) => activeColumn.key === c.name) == null;
     if (isNotInGroups) {
       columnGroups.push({key: activeColumn.key, name: activeColumn.name});
     }
-
+	console.log("columns groups.....", columnGroups);
     this.setState({groupBy: columnGroups});
   };
-
+/*
   onColumnGroupDeleted(name) {
-    let columnGroups = this.state.groupBy.filter(function(g){
+    console.log(".....group deleted name", name);
+	let columnGroups = this.state.groupBy.filter(function(g){
       return typeof g === 'string' ? g !== name : g.key !== name;
     });
+
+	console.log(".....group deleted name", name);
     this.setState({groupBy: columnGroups});
   };
+*/
+  onColumnGroupDeleted = (name) => {
+    console.log(".....group deleted name", name);
+	let columnGroups = this.state.groupBy.filter(function(g){
+      return typeof g === 'string' ? g !== name : g.key !== name;
+    });
+
+	console.log(".....group deleted name", name);
+    this.setState({groupBy: columnGroups});
+  };
+
 
   onRowExpandToggle({ columnGroupName, name, shouldExpand }){
     let expandedRows = Object.assign({}, this.state.expandedRows);
@@ -157,7 +174,7 @@ export default class Grid extends React.Component{
 			rowGetter={this.rowGetter}
 			rowsCount={this.getSize()}
 			onRowExpandToggle={this.onRowExpandToggle}
-			toolbar ={ <CustomToolbar groupBy={this.state.groupBy} onColumnGroupAdded={this.onColumnGroupAdded} onColumnGroupDeleted={this.onColumnGroupDeleted} />}
+			toolbar ={ <Toolbar enableFilter={true}><CustomToolbar groupBy={this.state.groupBy} onColumnGroupAdded={this.onColumnGroupAdded} onColumnGroupDeleted={this.onColumnGroupDeleted}/></Toolbar> }
 			minHeight={650} />
 		</DraggableContainer>
 		)

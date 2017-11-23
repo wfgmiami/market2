@@ -98,3 +98,95 @@ bJpI <—— 404 Not Found (<—> 0.4 ms)
 Hj0m ——> GET /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 
 Hj0m <—— 304 Not Modified (<—> 0.7 ms)
 Client has disconnected
+server listening on port 3000
+X7xf ——> GET / 
+X7xf <—— 200 OK 483 B text/html; charset=UTF-8 (<—> 15.1 ms)
+UiLb ——> GET /bootstrap/dist/css/bootstrap.css 
+UiLb <—— 304 Not Modified (<—> 3.7 ms)
+a9tg ——> GET /font-awesome/css/font-awesome.css 
+a9tg <—— 304 Not Modified (<—> 1.4 ms)
+8AnA ——> GET /bootstrap-social/bootstrap-social.css 
+oepK ——> GET /bootstrap-flatly.css 
+oepK <—— 304 Not Modified (<—> 0.5 ms)
+8AnA <—— 304 Not Modified (<—> 1.1 ms)
+3Aeo ——> GET /style.css 
+3Aeo <—— 304 Not Modified (<—> 1.1 ms)
+Li8v ——> GET /bundle.js 
+Li8v <—— 304 Not Modified (<—> 0.4 ms)
+H2Zk ——> GET /bundle.js.map 
+H2Zk <—— 304 Not Modified (<—> 1.8 ms)
+B9uJ ——> GET /api/stocks/nasdaq 
+WcN0 ——> GET /assets/images/drag_column_full.png 
+B9uJ <—— 304 Not Modified (<—> 9.4 ms)
+WcN0 <—— 404 Not Found (<—> 9.5 ms)
+Cybl ——> GET /bootstrap/dist/css/bootstrap.css.map 
+Cybl <—— 304 Not Modified (<—> 0.4 ms)
+sKtb ——> GET / 
+sKtb <—— 304 Not Modified (<—> 2.6 ms)
+Client has disconnected
+73nU ——> GET /bootstrap/dist/css/bootstrap.css 
+73nU <—— 304 Not Modified (<—> 0.7 ms)
+Ut6j ——> GET /font-awesome/css/font-awesome.css 
+mTwV ——> GET /bootstrap-social/bootstrap-social.css 
+Ut6j <—— 304 Not Modified (<—> 0.6 ms)
+mTwV <—— 304 Not Modified (<—> 0.5 ms)
+lsnT ——> GET /style.css 
+lkMO ——> GET /bootstrap-flatly.css 
+lsnT <—— 304 Not Modified (<—> 2.6 ms)
+lkMO <—— 304 Not Modified (<—> 1.1 ms)
+GdO0 ——> GET /bundle.js 
+GdO0 <—— 304 Not Modified (<—> 0.6 ms)
+KWDl ——> GET /bundle.js.map 
+KWDl <—— 304 Not Modified (<—> 0.5 ms)
+vQ7n ——> GET /api/stocks/nasdaq 
+iJ8S ——> GET /assets/images/drag_column_full.png 
+vQ7n <—— 304 Not Modified (<—> 10.3 ms)
+iJ8S <—— 404 Not Found (<—> 9.5 ms)
+utOm ——> GET /bootstrap/dist/css/bootstrap.css.map 
+utOm <—— 304 Not Modified (<—> 0.5 ms)
+IRwy ——> GET / 
+IRwy <—— 304 Not Modified (<—> 3.0 ms)
+Client has disconnected
+KuB3 ——> GET /bootstrap/dist/css/bootstrap.css 
+MBIi ——> GET /font-awesome/css/font-awesome.css 
+KuB3 <—— 304 Not Modified (<—> 1.4 ms)
+MBIi <—— 304 Not Modified (<—> 0.6 ms)
+28BO ——> GET /bootstrap-social/bootstrap-social.css 
+28BO <—— 304 Not Modified (<—> 0.3 ms)
+wNk2 ——> GET /bootstrap-flatly.css 
+wNk2 <—— 304 Not Modified (<—> 0.4 ms)
+Psf6 ——> GET /style.css 
+Psf6 <—— 304 Not Modified (<—> 2.3 ms)
+20OL ——> GET /bundle.js 
+20OL <—— 304 Not Modified (<—> 0.5 ms)
+oNE6 ——> GET /bundle.js.map 
+oNE6 <—— 304 Not Modified (<—> 0.6 ms)
+MTgR ——> GET /api/stocks/nasdaq 
+vVPf ——> GET /assets/images/drag_column_full.png 
+MTgR <—— 304 Not Modified (<—> 8.5 ms)
+vVPf <—— 404 Not Found (<—> 8.4 ms)
+OmdO ——> GET /bootstrap/dist/css/bootstrap.css.map 
+OmdO <—— 304 Not Modified (<—> 0.4 ms)
+V6Yn ——> GET / 
+V6Yn <—— 304 Not Modified (<—> 3.4 ms)
+kiFo ——> GET /bootstrap/dist/css/bootstrap.css 
+nnP3 ——> GET /font-awesome/css/font-awesome.css 
+kiFo <—— 304 Not Modified (<—> 1.4 ms)
+nnP3 <—— 304 Not Modified (<—> 0.6 ms)
+LA7l ——> GET /bootstrap-social/bootstrap-social.css 
+7wcd ——> GET /bootstrap-flatly.css 
+LA7l <—— 304 Not Modified (<—> 5.3 ms)
+7wcd <—— 304 Not Modified (<—> 6.3 ms)
+vkDy ——> GET /style.css 
+vkDy <—— 304 Not Modified (<—> 0.3 ms)
+JsiM ——> GET /bundle.js 
+JsiM <—— 304 Not Modified (<—> 0.3 ms)
+9cGK ——> GET /bundle.js.map 
+9cGK <—— 304 Not Modified (<—> 2.2 ms)
+Uq2H ——> GET /api/stocks/nasdaq 
+jGNj ——> GET /assets/images/drag_column_full.png 
+Uq2H <—— 304 Not Modified (<—> 7.0 ms)
+jGNj <—— 404 Not Found (<—> 8.2 ms)
+e6vH ——> GET /bootstrap/dist/css/bootstrap.css.map 
+e6vH <—— 304 Not Modified (<—> 0.4 ms)
+Client has disconnected
